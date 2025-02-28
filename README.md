@@ -44,7 +44,7 @@ Url demo apps : https://katalon-demo-cura.herokuapp.com/
 
 ## 📂 Project Structure
 ```
-OpenWeatherAPIAutomation/
+SoalNomor2Web/
   ├── Profiles/
   │     └── default
   ├── Test Cases/
