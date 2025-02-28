@@ -12,6 +12,7 @@ Url demo apps : https://katalon-demo-cura.herokuapp.com/
 1. Pengecekkan apakah user bisa input data pada component Text Field "Username" & "Password"
 2. Pengecekkan Current URL apakah Tetap Pada Halaman Login Atau Tidak **Seharusnya karna menginput Username & Password Yang Salah Akan Tetap Pada Halaman Login**
 3. Pengecekkan Apakah Component Label Error Message Muncul Atau Tidak, Apabila Muncul maka akan ada pengecekkan lagi untuk wording-nya Sesuai Atau tidak dengan wording **Login failed! Please ensure the username and password are valid.**
+
 ✅ **UI & UX Verification**  
 ✅ **Data-Driven Testing**  
 ✅ **Error Handling & Logging**  
