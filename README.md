@@ -42,13 +42,27 @@ Url demo apps : https://katalon-demo-cura.herokuapp.com/
 
 ## 📂 Project Structure
 ```
-📦 Katalon-TestSuite
- ┣ 📂 Object Repository   # Kumpulan elemen UI yang diuji
- ┣ 📂 Test Cases          # Skrip pengujian individu
- ┣ 📂 Test Suites        # Pengelompokan test case
- ┣ 📂 Data Files         # Dataset untuk pengujian
- ┣ 📂 Reports            # Hasil eksekusi testing
- ┗ 📄 README.md          # Dokumentasi proyek
+OpenWeatherAPIAutomation/
+  ├── Profiles/
+  │     └── default
+  ├── Test Cases/
+  │     ├── Get_5DayWeatherForecast/
+  │     │     └── Test_5DayWeatherForecast
+  │     └── Get_CurrentAirPollution/
+  │           └── Test_CurrentAirPollution
+  ├── Test Suites/
+  │     └── Tugas ADL Indonesia
+  ├── Object Repository/
+  │     ├── Get_5DayWeatherForecast.rs
+  │     └── Get_CurrentAirPollution.rs
+  ├── Reports/
+  │     ├── 20250213_014013/
+  │     └── 20250213_072347/
+  ├── Plugins/
+  │     └── org.everit.json.schema-1.14.2.jar
+  ├── Include/
+  │     └── scripts/
+  └── TestOps/
 ```
 
 ---
