@@ -113,6 +113,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare S
 
 //Check Button Back To Homepage
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/SummaryComponent/a_Go to Homepage'), 3)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/SummaryComponent/a_Go to Homepage'), 'Go to Homepage')
 
 // Close browser
 //WebUI.closeBrowser()

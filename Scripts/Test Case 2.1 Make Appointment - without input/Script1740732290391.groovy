@@ -37,7 +37,7 @@ WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/Tex
 // Klik "Make Appointment"
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_BookAppointment'))
 
-//Perlu cek apakah user tetap pada halaman login, karna seharusnya jika menginput dengan username dan password yang salah user tetap di halaman login sih karna login gagal
+//Check seharusnya akan tetap berada pada link/page appointment karna tidak mengisi mandatory field
 String currentUrl = WebUI.getUrl()
 WebUI.verifyMatch(currentUrl, 'https://katalon-demo-cura.herokuapp.com/#appointment', false)
 
