@@ -16,11 +16,13 @@ Url demo apps : https://katalon-demo-cura.herokuapp.com/
 ✅ **Test Case 1.2 Login Dengan Valid Data Username & Password**  
 1. Pengecekkan apakah user bisa input data pada component Text Field "Username" & "Password"
 2. Pengecekkan Login Berhasil atau tidak, apabila berhasil maka akan redirect ke link **https://katalon-demo-cura.herokuapp.com/#appointment**
+
 ✅ **Test Case 2.1 Buat Appointment tanpa mengisi mandatory field**
 1. Akan Call Test Case 1.2
 2. Pengecekkan seharusnya user akan tetap pada halaman appointment karna tidak menginput mandatory field
 3. Pengecekkan Date Picker seharusnya muncul dikarenakan sebelumnya user tidak menginput mandatory field **visit Date**
 4. Pengecekkan Error Message HTML5 "Please fill out this field." Seharusnya muncul
+
 ✅ **Test Case 2.2 Buat Appointment Dengan Mengisi Semua Field including Mandatory Field**
 1. Pengecekkan untuk URL after book Appointment akan redirect ke #summary
 2. Mengecheck wording label "Appointment Confirmation" muncul atau tidak dan wordingnya sesuai atau tidak
